@@ -35,7 +35,8 @@ Version control is a system that records changes to files over time, enabling de
 5. git commit -m <"Message"> - Used to commit the files. Here, -m is the message tag.
 6. git log - See what commits are made and when.
 7. git add . - Add all the files in working directory to staging area.
-8. git checkout - rollback or revert back to the last position in our local repository.
+8. git diff <filename> - Check the difference between the older file and the modified file.
+9. git checkout <filename> - rollback or revert back to the last position in our local repository.
 
 *Note:-
 - Working Directory - It is a forlder or directory, where we initialize our git repository.

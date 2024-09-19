@@ -37,6 +37,9 @@ Version control is a system that records changes to files over time, enabling de
 7. git add . - Add all the files in working directory to staging area.
 8. git diff <filename> - Check the difference between the older file and the modified file.
 9. git checkout <filename> - rollback or revert back to the last position in our local repository.
+10. git remote add <name> <url-of-our-remote-repo> - Tells local repo that we have created a remote repo.
+11. git push -u <remoteName> <BranchName> - Use to push things from our local repo to our remote repo.
+12. 
 
 *Note:-
 - Working Directory - It is a forlder or directory, where we initialize our git repository.

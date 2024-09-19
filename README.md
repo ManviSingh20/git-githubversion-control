@@ -44,7 +44,7 @@ Version control is a system that records changes to files over time, enabling de
 14. git rm --cached -r . - Remove files from the staging area.
 15. 
 
-*Note:-
+Note:-
 - Working Directory - It is a forlder or directory, where we initialize our git repository.
 - Staging Area - It is an intermediate space where we can prepare and organize our changes before committing them to the repository. It acts as a buffer between our  working directory (where files are modified) and the commit history (the permanent record of changes).
 - Git Repository - It is a storage space where your project's files and the entire history of changes are tracked using Git.

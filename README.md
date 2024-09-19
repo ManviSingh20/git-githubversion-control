@@ -8,6 +8,7 @@ Git is a distributed version control system (VCS) that tracks changes in source 
 - Create and manage branches for working on new features or fixes without affecting the main codebase.
 - Merge changes from different branches back into the main project.
 
+
 ## GitHub
 
 GitHub is a cloud-based platform that hosts Git repositories. It provides a user-friendly interface for collaborating with others on projects. GitHub allows developers to:
@@ -18,6 +19,7 @@ GitHub is a cloud-based platform that hosts Git repositories. It provides a user
 
 *Note - While Git is the underlying tool that handles version control, GitHub adds social features like project management and team collaboration.
 
+
 ## Version Control
 
 Version control is a system that records changes to files over time, enabling developers to:
@@ -25,6 +27,7 @@ Version control is a system that records changes to files over time, enabling de
 - Collaborate on code without conflicts.
 - Keep different versions (or branches) of a project, allowing experimental changes or new features to be developed without disrupting the main project.
 - Roll back to previous versions of the code in case something goes wrong.
+
 
 ## Git Commands
 
@@ -56,11 +59,13 @@ Note:-
 - Staging Area - It is an intermediate space where we can prepare and organize our changes before committing them to the repository. It acts as a buffer between our  working directory (where files are modified) and the commit history (the permanent record of changes).
 - Git Repository - It is a storage space where your project's files and the entire history of changes are tracked using Git.
 
+
 ## .gitignore
 
 A .gitignore file is used in Git to specify which files or directories should be ignored by Git when committing changes. This is useful for excluding unnecessary files, such as temporary files, build artifacts, or sensitive information, from being added to a repository.
 
 We can simply write the name of the files, which we do not want to commit, in .gitignore file. We have to follow the naming conventions.
+
 
 ## Cloning
 
@@ -70,6 +75,7 @@ Git cloning refers to creating a local copy of an existing remote Git repository
 3. Local Development: Developers can work offline and push changes later.
 4. Syncing: Keeps local copies up to date with the latest changes from the remote repository.
 5. Experimentation: Enables safe testing of new features in isolated branches without affecting the main codebase.
+
 
 ## Branching & Merging
 
@@ -89,6 +95,31 @@ Merging in Git is the process of integrating changes from one branch into anothe
 Benefits of Merging:
 - Integration of Work: Combines multiple developers' contributions seamlessly.
 - Maintains History: Keeps a record of all commits, including those from branches, preserving the project's history.
+
+
+## Forking & Pull Request
+
+### Forking
+
+Forking refers to creating a personal copy of a repository under our account. This allows us to make changes and contributions independently of the original project.
+
+Benefits of Forking:
+- Independent Development: You can experiment without affecting the original project.
+- Contribution to Open Source: Easily propose changes to projects you want to contribute to.
+- Learning and Experimentation: Provides a sandbox for learning from existing codebases.
+
+### Pull Request
+
+A pull request is a request to merge changes from one branch (usually in a forked repository) into another branch (often in the original repository). It facilitates collaboration by allowing developers to review and discuss changes before integrating them into the main codebase.
+
+Benefits of Pull Requests:
+- Code Review: Facilitates collaboration and ensures code quality through peer review.
+- Discussion: Allows for discussions about changes, which can improve the overall design and functionality.
+- Traceability: Provides a historical record of changes, including discussions and approvals.
+
+
+
+
 
 
 

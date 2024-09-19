@@ -30,9 +30,6 @@ Version control is a system that records changes to files over time, enabling de
 
 1. git init main - Initiate a git
 2. git status - Check which files are in the staging area.
-
-*Note - The staging area in Git is an intermediate space where we can prepare and organize our changes before committing them to the repository. It acts as a buffer between our  working directory (where files are modified) and the commit history (the permanent record of changes).
-
 3. git add <fileName> - Adding file to the staging area.
 4. open -a <"App name"> <fileName> - Open file with a specific application.
 5. git commit -m <"Message"> - Used to commit the files. Here, -m is the message tag.
@@ -40,6 +37,7 @@ Version control is a system that records changes to files over time, enabling de
 7. git add . - Add all the files in working directory to staging area.
 8. git checkout - rollback or revert back to the last position in our local repository.
 
+*Note:-
 - Working Directory - It is a forlder or directory, where we initialize our git repository.
 - Staging Area - It is an intermediate space where we can prepare and organize our changes before committing them to the repository. It acts as a buffer between our  working directory (where files are modified) and the commit history (the permanent record of changes).
 - Git Repository - It is a storage space where your project's files and the entire history of changes are tracked using Git.

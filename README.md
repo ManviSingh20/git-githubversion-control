@@ -45,7 +45,11 @@ Version control is a system that records changes to files over time, enabling de
 15. touch .gitignore - Create a .gitignore file.
 16. git clone <repo-url> - Clone a remote repo to our local machine.
 17. git clone -b <branch_name> <repository_url> - Clone a specific branch.
-18. 
+18. git branch <BranchName> - Creating a Branch.
+19. git checkout -b <branch_name> - Create and switch to a new branch in one step.
+20. git checkout <branch_name> - To switch between branches.
+21. git merge <branch_name> - Merge it back into the main branch. (Firstly change branch to main - git checkout main).
+22. git branch -d <branch_name> - Delete branch after merging. 
 
 Note:-
 - Working Directory - It is a forlder or directory, where we initialize our git repository.
@@ -67,9 +71,28 @@ Git cloning refers to creating a local copy of an existing remote Git repository
 4. Syncing: Keeps local copies up to date with the latest changes from the remote repository.
 5. Experimentation: Enables safe testing of new features in isolated branches without affecting the main codebase.
 
+## Branching & Merging
 
+### Branching
 
+Branching in Git allows you to create independent lines of development within a project. Each branch can represent a different feature, bug fix, or experiment, enabling parallel work without interfering with the main codebase.
 
+Benefits of Branching:
+- Isolation: Each branch can be developed independently, minimizing conflicts.
+- Parallel Development: Multiple features or fixes can be worked on simultaneously.
+- Experimentation: You can try out new ideas without affecting the main codebase.
+
+### Merging
+
+Merging in Git is the process of integrating changes from one branch into another. It allows you to combine the work done in different branches, typically bringing features or fixes into the main branch.
+
+Types of Merging:
+- Fast-Forward Merge: If the target branch has not diverged, Git simply moves the pointer forward to the latest commit of the source branch.
+- Three-Way Merge: If there have been changes on both branches, Git creates a new merge commit that reconciles the two histories.
+
+Benefits of Merging:
+- Integration of Work: Combines multiple developers' contributions seamlessly.
+- Maintains History: Keeps a record of all commits, including those from branches, preserving the project's history.
 
 
 

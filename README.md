@@ -86,10 +86,6 @@ Benefits of Branching:
 
 Merging in Git is the process of integrating changes from one branch into another. It allows you to combine the work done in different branches, typically bringing features or fixes into the main branch.
 
-Types of Merging:
-- Fast-Forward Merge: If the target branch has not diverged, Git simply moves the pointer forward to the latest commit of the source branch.
-- Three-Way Merge: If there have been changes on both branches, Git creates a new merge commit that reconciles the two histories.
-
 Benefits of Merging:
 - Integration of Work: Combines multiple developers' contributions seamlessly.
 - Maintains History: Keeps a record of all commits, including those from branches, preserving the project's history.

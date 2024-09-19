@@ -28,27 +28,38 @@ Version control is a system that records changes to files over time, enabling de
 
 ## Git Commands
 
-1. git init main - Initiate a git
-2. git status - Check which files are in the staging area.
-3. git add <fileName> - Adding file to the staging area.
-4. open -a <"App name"> <fileName> - Open file with a specific application.
-5. git commit -m <"Message"> - Used to commit the files. Here, -m is the message tag.
-6. git log - See what commits are made and when.
-7. git add . - Add all the files in working directory to staging area.
-8. git diff <filename> - Check the difference between the older file and the modified file.
-9. git checkout <filename> - rollback or revert back to the last position in our local repository.
-10. git remote add <name> <url-of-our-remote-repo> - Tells local repo that we have created a remote repo.
-11. git push -u <remoteName> <BranchName> - Use to push things from our local repo to our remote repo.
-12. 
+1. git init - Initiate a git
+2. git checkout -b main - Make main the default branch after initializing the repository.
+3. touch <filename> - Create a file.
+4. git status - Check which files are in the staging area.
+5. git add <fileName> - Adding file to the staging area.
+6. open -a <"App name"> <fileName> - Open file with a specific application.
+7. git commit -m <"Message"> - Used to commit the files. Here, -m is the message tag.
+8. git log - See what commits are made and when.
+9. git add . - Add all the files in working directory to staging area.
+10. git diff <filename> - Check the difference between the older file and the modified file.
+11. git checkout <filename> - rollback or revert back to the last position in our local repository.
+12. git remote add <name> <url-of-our-remote-repo> - Tells local repo that we have created a remote repo.
+13. git push -u <remoteName> <BranchName> - Use to push things from our local repo to our remote repo.
+14. git rm --cached -r . - Remove files from the staging area.
+15. 
 
 *Note:-
 - Working Directory - It is a forlder or directory, where we initialize our git repository.
 - Staging Area - It is an intermediate space where we can prepare and organize our changes before committing them to the repository. It acts as a buffer between our  working directory (where files are modified) and the commit history (the permanent record of changes).
 - Git Repository - It is a storage space where your project's files and the entire history of changes are tracked using Git.
 
+## .gitignore
 
+A .gitignore file is used in Git to specify which files or directories should be ignored by Git when committing changes. This is useful for excluding unnecessary files, such as temporary files, build artifacts, or sensitive information, from being added to a repository.
 
+We can simply write the name of the files, which we do not want to commit, in .gitignore file. We have to follow the naming conventions.
 
+### Commands
+
+1. touch .gitignore - Create a hidden file.
+
+## Cloning
 
 
 
